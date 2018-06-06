@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MDM.CorsoVB.ConsoleApp", "MDM.CorsoVB.ConsoleApp\MDM.CorsoVB.ConsoleApp.vbproj", "{F2C2E1A8-E919-47FD-ACD6-6DFD98A294D4}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MDM.CorsoVB.WindowsApp", "MDM.CorsoVB.WindowsApp\MDM.CorsoVB.WindowsApp.vbproj", "{D79DA500-DB52-40D6-8312-244D5BD6C8A6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MDM.CorsoVB.LogicaApplicazione", "MDM.CorsoVB.LogicaApplicazione\MDM.CorsoVB.LogicaApplicazione.vbproj", "{D7513415-8F4F-459E-B542-A647758A848D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F2C2E1A8-E919-47FD-ACD6-6DFD98A294D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2C2E1A8-E919-47FD-ACD6-6DFD98A294D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2C2E1A8-E919-47FD-ACD6-6DFD98A294D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79DA500-DB52-40D6-8312-244D5BD6C8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79DA500-DB52-40D6-8312-244D5BD6C8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79DA500-DB52-40D6-8312-244D5BD6C8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79DA500-DB52-40D6-8312-244D5BD6C8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7513415-8F4F-459E-B542-A647758A848D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7513415-8F4F-459E-B542-A647758A848D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7513415-8F4F-459E-B542-A647758A848D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7513415-8F4F-459E-B542-A647758A848D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

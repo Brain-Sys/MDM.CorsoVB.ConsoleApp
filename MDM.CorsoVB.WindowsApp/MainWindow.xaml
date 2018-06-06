@@ -1,0 +1,16 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MDM.CorsoVB.WindowsApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Per favore indica la tua età :" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="329" FontFamily="Palatino Linotype" FontSize="20"/>
+        <TextBox x:Name="txtEtà" HorizontalAlignment="Left" Height="39" Margin="10,47,0,0" TextWrapping="Wrap" Text="42" VerticalAlignment="Top" Width="254" FontSize="24" Background="#FFE8B547" TextAlignment="Center"/>
+        <Button x:Name="btnCalcolaAnnoNascita" Content="Calcola Anno" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="254" FontWeight="Bold" FontSize="20" BorderBrush="#FFC51212" BorderThickness="4"/>
+        <Label x:Name="lblRisultatoFinale" Content="nessun risultato, devi prima inserire la tua età e cliccare sul bottone!" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Width="774" Height="251" Background="#FF8ACCEA" Foreground="#FFF13E0D" FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Window>
